@@ -12,7 +12,7 @@ const initialReactGa = () => {
 const trackTotalUsers = () => {
   ReactGa.event({
     category: "User",
-    action: "Login",
+    action: "login",
     label: "Total Users",
   });
 };
