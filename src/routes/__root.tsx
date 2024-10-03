@@ -19,8 +19,8 @@ const Root = () => {
     // Send pageview with a custom path
     ReactGa.send({
       hitType: "pageview",
-      page: "/my-path",
-      title: "Custom Title",
+      page: router.location.pathname,
+      title: router.location.pathname,
     });
   }, [router.location.pathname]);
 
