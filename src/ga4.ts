@@ -1,7 +1,7 @@
 import ReactGa from "react-ga4";
 
 const initialReactGa = () => {
-  ReactGa.initialize("G-V6NMPYEDEN");
+  ReactGa.initialize("G-X1Z6D1WWXM");
 };
 
 // ReactGa.send({
